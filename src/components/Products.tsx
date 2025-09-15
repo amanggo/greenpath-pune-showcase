@@ -5,6 +5,9 @@ import { CheckCircle } from "lucide-react";
 import hexagonalPavers from "@/assets/hexagonal-pavers.jpg";
 import grassGridPavers from "@/assets/grass-grid-pavers.jpg";
 import permeablePavers from "@/assets/permeable-pavers.jpg";
+import recycledPlasticPavers from "@/assets/recycled-plastic-pavers.jpg";
+import solarReflectivePavers from "@/assets/solar-reflective-pavers.jpg";
+import bambooCompositePavers from "@/assets/bamboo-composite-pavers.jpg";
 
 const Products = () => {
   const products = [
@@ -56,6 +59,7 @@ const Products = () => {
       unit: "per sq ft",
       badge: "Premium", 
       badgeVariant: "destructive" as const,
+      image: recycledPlasticPavers,
       features: [
         "Made from ocean-recovered plastics",
         "Ultra-lightweight yet durable",
@@ -69,6 +73,7 @@ const Products = () => {
       unit: "per sq ft",
       badge: "Innovation",
       badgeVariant: "secondary" as const,
+      image: solarReflectivePavers,
       features: [
         "Reduces urban heat island effect",
         "Special reflective surface coating", 
@@ -82,6 +87,7 @@ const Products = () => {
       unit: "per sq ft",
       badge: "Luxury",
       badgeVariant: "default" as const,
+      image: bambooCompositePavers,
       features: [
         "Fast-growing bamboo composite",
         "Natural wood-like appearance",
