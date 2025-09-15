@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Green Path Pavers Brand Colors
+        brand: {
+          green: "hsl(var(--brand-green))",
+          "green-light": "hsl(var(--brand-green-light))",
+          "green-dark": "hsl(var(--brand-green-dark))",
+          earth: "hsl(var(--brand-earth))",
+          "earth-dark": "hsl(var(--brand-earth-dark))",
+          sand: "hsl(var(--brand-sand))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +66,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-earth': 'var(--gradient-earth)',
+        'gradient-overlay': 'var(--gradient-overlay)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'medium': 'var(--shadow-medium)',
+        'strong': 'var(--shadow-strong)',
       },
       borderRadius: {
         lg: "var(--radius)",
